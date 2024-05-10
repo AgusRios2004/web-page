@@ -1,23 +1,38 @@
-.personajes-container {
+.personajes-global {
     display: flex; /* Utilizamos flexbox para alinear los elementos horizontalmente */
 }
 
 .personaje {
     margin-right: 10px; /* Espacio entre cada personaje */
+    text-align: center;
 }
 
-.imagen-container {
+.imagen-global {
     text-align: center; /* Centra el contenido dentro del contenedor */
 }
 
-.imagen-container img {
+.imagen-global img {
     max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
     height: auto; /* Hace que la altura se ajuste automáticamente para mantener la proporción */
     display: block; /* Elimina el espacio debajo de las imágenes */
     width: 200px; /* Establece el ancho máximo de las imágenes */
+    height: 60px;
 }
 
-.imagen-container p {
+.imagen-global p {
     margin: 0; /* Elimina el margen alrededor del texto */
     text-align: center; /* Centra el texto horizontalmente */
+}
+.titulocentral {
+    text-align: center;
+}
+.descripcion h2{
+    text-align: center;
+}
+.imagenprincipal img {
+    width: 700px;
+    height: 350px;
+    display: block; /* Para asegurar que el margen automático funcione */
+    margin-left: auto;
+    margin-right: auto; 
 }
